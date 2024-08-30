@@ -4,7 +4,7 @@
 int main(){
 	int *pPares;
 	int size=10, i;
-	//Número de cuenta 423101700
+	//NÃºmero de cuenta 423101700
 	int lastDigit=0;
 	pPares = calloc(size, sizeof(int));
 	
