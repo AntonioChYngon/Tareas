@@ -19,8 +19,8 @@ void lecturaMatriz(int x, int y, int **Matriz){
 	
 		for (j=0; j<y; j++){//Doble ciclo que recorre la matriz fila x fila
 			printf("[%d][%d]: ", i+1,j+1);
-			scanf("%d", *(Matriz+i)+j); /*/<-Matriz+i apunta al puntero de flotantes de la i-th posición, al agregar "*", estamos
-			obteniendo esa direccion, "+j" queda fuera pues queremos obtener la direccion del elemento flotante en la j-th posición/*/
+			scanf("%d", *(Matriz+i)+j); /*/<-Matriz+i apunta al puntero de flotantes de la i-th posiciÃ³n, al agregar "*", estamos
+			obteniendo esa direccion, "+j" queda fuera pues queremos obtener la direccion del elemento flotante en la j-th posiciÃ³n/*/
 		}
 	}
 }
